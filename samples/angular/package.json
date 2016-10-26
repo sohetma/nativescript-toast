@@ -6,10 +6,10 @@
   "nativescript": {
     "id": "org.nativescript.toastdemoapp",
     "tns-ios": {
-      "version": "2.4.0-2016-9-28-1"
+      "version": "2.3.0"
     },
     "tns-android": {
-      "version": "2.4.0-next-2016-10-18-1276"
+      "version": "2.3.0"
     }
   },
   "dependencies": {
@@ -22,10 +22,9 @@
     "@angular/platform-browser-dynamic": "^2.1.0",
     "@angular/router": "^3.1.0",
     "nativescript-angular": "^1.1.0",
-    "nativescript-toast": "../..",
     "nativescript-unit-test-runner": "0.3.3",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.0-rc.1",
+    "rxjs": "^5.0.0-beta.12",
     "tns-core-modules": "^2.3.0",
     "zone.js": "^0.6.25"
   },

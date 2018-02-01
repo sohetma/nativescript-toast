@@ -1,1 +1,11 @@
-pod 'Toaster', :git => 'https://github.com/EddyVerbruggen/Toaster.git', :commit => '7fd786f4e621a8ae9437bb1db7c011c1caf4202a'
+pod 'Toaster', :git => 'https://github.com/EddyVerbruggen/Toaster.git', :commit => '5d6819bcbf2e554e00527b536b22f9f5749f9088'
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == 'Toaster'
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '4.0'
+      end
+    end
+  end
+end

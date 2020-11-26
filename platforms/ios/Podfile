@@ -1,1 +1,1 @@
-pod 'Toaster', :git => 'https://github.com/EddyVerbruggen/Toaster.git', :commit => '927b63b9c64390251f042efc9c025d5692a027db'
+pod 'Toaster', :git => 'https://github.com/b12consulting/Toaster.git'
